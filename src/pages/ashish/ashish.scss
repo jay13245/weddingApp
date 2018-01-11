@@ -1,0 +1,38 @@
+page-ashish {
+  overflow: hidden;
+  color: maroon;
+  .header-ios {
+    .toolbar-content {
+      padding-bottom: 15px;
+    }
+    .toolbar-ios:last-child {
+      .toolbar-background-ios {
+        border-width: 0 0 0px;
+        background: none;
+      }
+    }
+  }
+  .header-md::after {
+    background-image: none;
+    height: 0px;
+  }
+  .col {
+    font-size: 16px;
+  }
+  ion-slide {
+    color: maroon;
+    .reflax {
+      transform: rotateX(180deg);
+    }
+    .res-img {
+      max-width: 55%;
+      height: auto;
+      margin-top: 20px;
+    }
+    ion-content {
+      font-size: 16px;
+      color: maroon;
+      height: 390px;
+    }
+  }
+}

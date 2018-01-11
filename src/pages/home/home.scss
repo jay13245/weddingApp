@@ -1,0 +1,30 @@
+page-home {
+  ion-slide {
+    .swiper-slide {
+      display: block;
+      .slide-zoom {
+        img {
+          object-fit: cover;
+          object-position: top center;
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    &.hide {
+      display: inline-block !important;
+    }
+    button {
+      &.swiper-pagination-bullet-active {
+        background: red;
+        opacity: 1;
+        margin: 0px 20px !important;
+      }
+      &.swiper-pagination-bullet {
+        margin: 0px 20px !important;
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

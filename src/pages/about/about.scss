@@ -1,0 +1,74 @@
+@import 'theme/variables.scss';
+page-about {
+  font-family: $theme_font;
+  .header-ios {
+    .toolbar-content{
+      padding-bottom: 15px;
+    }
+    .toolbar-ios:last-child {
+      .toolbar-background-ios {
+        border-width: 0 0 0px;
+        background: none;
+      }
+    }
+  }
+  .header-md::after {
+    background-image: none;
+    height: 0px;
+  }
+
+  .list_of_arrange {
+    padding: 0px 20px;
+    font-size: 16px;
+    color: maroon;
+    .shree {
+      &::before {
+        content: "\007C";
+        font-family: 'Times New Roman', Times, serif;
+        padding-right: 5px;
+      }
+      &::after {
+        @extend .shree::before;
+        padding-left: 5px;
+      }
+    }
+    h2{
+      font-weight:700;
+      font-style: italic;
+      font-stretch: semi-condensed; 
+    }
+    img{
+      width: 75%;
+    }
+  }
+  .swiper-wrapper {
+    height: auto !important;
+    ion-slide {
+      &.swiper-slide {
+        display: block;
+        height: auto;
+        .slide-zoom {
+          img {
+            object-fit: cover;
+            object-position: top center;
+          }
+        }
+      }
+    }
+  }
+  .hide {
+    display: inline-block !important;
+  }
+  button {
+    &.swiper-pagination-bullet-active {
+      background: red;
+      opacity: 1;
+      margin: 0px 20px !important;
+    }
+    &.swiper-pagination-bullet {
+      margin: 0px 20px !important;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

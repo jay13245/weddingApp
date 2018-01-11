@@ -1,0 +1,24 @@
+page-contact {
+  ion-slide {
+    content {
+      display: inline-block;
+      width: 100%;
+      iframe {
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    }
+    .reflax {
+      transform: rotateX(180deg);
+    }
+    .res-img {
+      max-width: 55%;
+      height: auto;
+      margin-top: 20px;
+    }
+    ion-content {
+      font-size: 16px;
+      height: 380px;
+    }
+  }
+}

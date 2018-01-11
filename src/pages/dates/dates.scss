@@ -1,0 +1,22 @@
+page-dates {
+  color: maroon;
+  ion-slide {
+    h3 {
+      font-weight: 600;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .reflax {
+      transform: rotateX(180deg);
+    }
+    .res-img {
+      max-width: 55%;
+      height: auto;
+      margin-top: 20px;
+    }
+    ion-content {
+      font-size: 16px;
+      height: 390px;
+    }
+  }
+}
